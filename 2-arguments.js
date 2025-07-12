@@ -1,6 +1,6 @@
 
 
-let days = [];
+let days ;
 
 if (days < 1){
   console.log('No argument');
