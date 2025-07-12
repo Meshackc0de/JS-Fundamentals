@@ -1,15 +1,11 @@
+let days = ['monday','tuesday'];
 
-
-let days = 0;
-
-if (days < 1){
+if (0 === days.length){
   console.log('No argument');
-} else if(days === 1){
+} else if( 1 === days.length){
   console.log('Argument found');
-} else if (days > 1){
+} else if (1 > days.length){
   console.log('Arguments found');
-
 }
 
 
- 
