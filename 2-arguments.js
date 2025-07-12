@@ -1,6 +1,6 @@
 
 
-let days = ['Best'];
+let days = [];
 
 if (days.length < 1){
   console.log('No argument');
