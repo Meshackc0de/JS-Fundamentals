@@ -1,6 +1,6 @@
 
 
-let days ;
+let days = 0;
 
 if (days < 1){
   console.log('No argument');
