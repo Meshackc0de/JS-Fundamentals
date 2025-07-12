@@ -4,9 +4,15 @@ let days = [];
 
 if (days.length < 1){
   console.log('No argument');
-} else if (days.length === 1 && days.length > 0){
-  console.log('Argument found');
-} else if (days.length > 1){
-  console.log('Arguments found');
 }
 
+
+  let names = ['Best'];
+  if(names.length === 1){
+    console.log('Argument found');
+  }
+
+  let result = ['best', 'School'];
+  if (result.length > 1 ){
+    console.log('Arguments found');
+  }
