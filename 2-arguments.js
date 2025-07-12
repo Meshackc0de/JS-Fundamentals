@@ -1,7 +1,9 @@
-if (argument === 0){
+const argu = process.argv.slice(2);
+
+if(argu.length === 0){
   console.log('No argument');
-} else if(argument === 1){
+} else if(argu.length === 1){
   console.log('Argument found');
-} else if (argument > 1){
+} else {
   console.log('Arguments found');
 }
