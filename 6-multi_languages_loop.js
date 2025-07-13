@@ -6,8 +6,9 @@ const facts = ['C is fun', 'Python is cool','JavaScript is amazing'];
 //   console.log(facts[i]);
 // }
 let i = 0;
+let result = '';
 while(i < facts.length){
-  console.log(facts[i]);
+  result += facts[i] + '\n' ;
   i++;
-
 }
+console.log(result.trim());
