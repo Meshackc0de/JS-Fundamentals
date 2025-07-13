@@ -13,4 +13,3 @@ if (arg === undefined) {
   const num = parseInt(arg);
   console.log(factorial(num));
 }
-
