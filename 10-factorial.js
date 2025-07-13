@@ -5,11 +5,5 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 
-const arg = process.argv[2];
-
-if (arg === undefined) {
-  console.log('No argument');
-} else {
-  const num = parseInt(arg);
-  console.log(factorial(num));
-}
+const num = parseInt(process.argv[2]);
+console.log(factorial(num));
