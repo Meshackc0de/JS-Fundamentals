@@ -1,9 +1,16 @@
 function factorial(n) {
-  if (n <= 1) {
+  if (isNaN(n) || n <= 1) {
     return 1;
   }
   return n * factorial(n - 1);
 }
 
-const input = parseInt(process.argv[2]);
-console.log(factorial(input));
+const arg = process.argv[2];
+
+if (arg === undefined) {
+  console.log('No argument');
+} else {
+  const num = parseInt(arg);
+  console.log(factorial(num));
+}
+
