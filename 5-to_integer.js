@@ -4,7 +4,7 @@
 const arg = process.argv.slice(2);
 
 if(Number(arg[0])){
-  console.log(`My number ${arg[0]}`)
+  console.log(`My number: ${arg[0]}`)
 } else {
   console.log('Not a number');
 }
