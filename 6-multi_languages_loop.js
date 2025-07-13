@@ -2,6 +2,12 @@
 
 const facts = ['C is fun', 'Python is cool','JavaScript is amazing'];
 
-for(let i = 0; i < facts.length; i++){
+// for(let i = 0; i < facts.length; i++){
+//   console.log(facts[i]);
+// }
+let i = 0;
+while(i < facts.length){
   console.log(facts[i]);
+  i++;
+
 }
